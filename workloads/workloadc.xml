@@ -1,0 +1,22 @@
+<!-- # Yahoo! Cloud System Benchmark
+# Workload C: Read only
+#   Application example: user profile cache, where profiles are constructed elsewhere (e.g., Hadoop)
+#                        
+#   Read/update ratio: 100/0
+#   Default data size: 1 KB records (10 fields, 100 bytes each, plus key)
+#   Request distribution: zipfian -->
+<WorkloadSettings>
+	<workloadname>workloadc</workloadname>
+	<recordcount>100000</recordcount>
+	<operationcount>100000</operationcount>
+	<workload>com.yahoo.ycsb.workloads.CoreWorkload</workload>
+	<readallfields>true</readallfields>
+	<readproportion>1</readproportion>
+	<updateproportion>0</updateproportion>
+	<scanproportion>0</scanproportion>
+	<insertproportion>0</insertproportion>
+	<requestdistribution>zipfian</requestdistribution>
+</WorkloadSettings>
+
+
+

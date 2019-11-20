@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<date>27-11-2018</date>
+<autor>Ozgun AY</author>
+<DBSettings>
+  <dbname>redis</dbname>
+  <host>192.168.33.12</host>
+  <port>6379</port>
+  <username>testuser</username>
+  <password>cnr123</password>
+  <database>testdb</database>
+  <cluster>0</cluster>
+  <conn_timeout>1000</conn_timeout>
+  <rw_timeout>1000</rw_timeout>
+  <max_conns>100</max_conns>
+</DBSettings>
+<Workload>
+  <workloadname>workloada</workloadname>
+</Workload>
