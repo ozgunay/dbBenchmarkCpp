@@ -1,0 +1,55 @@
+# Prerequisites
+doc/
+logs/
+obj/
+Htmlreports/
+
+# Log files
+*.log
+
+# Build related files
+.cppcheck.done
+
+dbsettings*.xml
+cppcheck*.xml
+coverage*.xml
+test*.xml
+
+# Covarege Reports
+*.gcno
+*.gcda
+*.gcno
+
+# Ignore executable(Project spesific)
+dbBenchmarkCpp
+dbBenchmarkCppTest
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
